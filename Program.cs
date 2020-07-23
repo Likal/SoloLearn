@@ -6,19 +6,20 @@ namespace SoloLearn
     {
         static void Main(string[] args)
         {
-            int x = 33;
-            
-            if (x == 8) {
-                Console.WriteLine("Value of x is 8");
-            }
-            else if (x == 18) {
-                Console.WriteLine("Value of x is 18");
-            }
-            else if (x == 33) {
-                Console.WriteLine("Value of x is 33");
-            }
-            else {
-                Console.WriteLine("No match");
+            int age = 88;
+            switch (age) {
+                case 16:
+                    Console.WriteLine("Too young");
+                    break;
+                case 42:
+                    Console.WriteLine("Adult");
+                    break;
+                case 70:
+                    Console.WriteLine("Senior");
+                    break;
+                default:
+                    Console.WriteLine("The default case");
+                    break;
             }
         }
     }
