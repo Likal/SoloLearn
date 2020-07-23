@@ -6,8 +6,23 @@ namespace SoloLearn
     {
         static void Main(string[] args)
         {
-        int age = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("You are {0} years old", age);
+            int age = 17;
+            if (age > 14) {
+                if(age > 18) {
+                    Console.WriteLine("Adult");
+                }
+                else {
+                    Console.WriteLine("Teenager");
+                }
+            }
+            else {
+                if (age > 0) {
+                    Console.WriteLine("Child");
+                }
+                else {
+                    Console.WriteLine("Something's wrong");
+                }
+            }
         }
     }
 }
