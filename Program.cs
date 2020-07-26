@@ -11,9 +11,9 @@ namespace SoloLearn
     {
         static void Main(string[] args)
         {
-            for (int x = 10; x < 15; x++)
+            for (int x = 0; x < 10; x+=3)
             {
-                Console.WriteLine("Value of x: {0}", x);
+                Console.WriteLine(x);
             }
         }
     }
