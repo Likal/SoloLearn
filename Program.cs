@@ -11,7 +11,8 @@ namespace SoloLearn
     {
         static void Main(string[] args)
         {
-            for (int x = 10; x > 0; x-=2)
+            int x = 10;
+            for ( ; x > 0; x -= 3)
             {
                 Console.WriteLine(x);
             }
