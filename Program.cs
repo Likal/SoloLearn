@@ -11,11 +11,15 @@ namespace SoloLearn
     {
         static void Main(string[] args)
         {
-            int x = 42;
-            do {
-                Console.WriteLine(x);
-                x++;
-            } while(x < 10);
+            int num = 0;
+            while (num < 20)
+            {
+                if (num == 5)
+                    break;
+
+                Console.WriteLine(num);
+                num++;
+            }
         }
     }
 }
