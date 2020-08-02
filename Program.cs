@@ -17,7 +17,7 @@ namespace SoloLearn
         static void Main(string[] args){
             Func(5);
             Func(12);
-            Func(24);
+            Func(42);
         }
     }
 }
