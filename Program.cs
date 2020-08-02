@@ -16,6 +16,8 @@ namespace SoloLearn
 
         static void Main(string[] args){
             SayHi();
+            SayHi();
+            SayHi();
         }
     }
 }
