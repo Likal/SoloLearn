@@ -11,10 +11,9 @@ namespace SoloLearn
     {
         static void Main(string[] args)
         {
-            int age = 18;
-            int score = 85;
-            if(age > 20 || score > 50) {
-                Console.WriteLine("Welcome");
+             int age = 8;
+            if ( !(age > 16) ) {
+                Console.WriteLine("Your age is less than 16");
             }
         }
     }
