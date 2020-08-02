@@ -13,6 +13,7 @@ namespace SoloLearn
         static void Main(string[] args)
         {
         
+        // This code will still cause an unhandled exception if upper case EXIT is used, or any other letter or word
         do {
          Console.Write("x = ");
          string str = Console.ReadLine();
