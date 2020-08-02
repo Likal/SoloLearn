@@ -7,24 +7,23 @@ using System.Threading.Tasks;
 
 namespace SoloLearn
 {
+
     class Program
     {
         static void Main(string[] args)
         {
-           /*int age = 42;
-           string msg;
-           if(age >= 18)
-                msg = "Welcome";
-           else 
-                msg = "Sorry";
+        
+        do {
+         Console.WriteLine("x = ");
+         int x = Convert.ToInt32(Console.ReadLine());
 
-           Console.WriteLine(msg);*/
+         Console.WriteLine("y = ");
+         int y = Convert.ToInt32(Console.ReadLine());
 
-            // This replaces the above code, using the ?: operator
-           int age = 42;
-           string msg;
-           msg = (age >= 18)? "Welcome" : "Sorry";
-           Console.WriteLine(msg);
+         int sum = x+y;
+         Console.WriteLine("Result: {0}", sum);
+        }
+        while(true);
         }
     }
 }
