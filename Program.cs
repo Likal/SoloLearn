@@ -10,13 +10,14 @@ namespace SoloLearn
 
     class Program
     {
-        static int Sum(int x, int y)
+         static int Sum(int x, int y)
         {
             return x+y;
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(Sum(8, 6));
+            int res = Sum(11, 42);
+            Console.WriteLine(res);
         }
     }
 }
