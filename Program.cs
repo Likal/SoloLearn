@@ -11,12 +11,11 @@ namespace SoloLearn
     {
         static void Main(string[] args)
         {
-         int age = 42;
-         double money = 540;
-         if(age > 18 && money > 100){
-            Console.WriteLine("Welcome");
-         }   
-            
+            int age = 18;
+            int score = 85;
+            if(age > 20 || score > 50) {
+                Console.WriteLine("Welcome");
+            }
         }
     }
 }
