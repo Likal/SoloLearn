@@ -13,5 +13,9 @@ namespace SoloLearn
         static void SayHi(){
             Console.WriteLine("Hello");
         }
+
+        static void Main(string[] args){
+            SayHi();
+        }
     }
 }
