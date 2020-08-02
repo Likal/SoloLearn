@@ -10,14 +10,14 @@ namespace SoloLearn
 
     class Program
     {
-        static void SayHi(){
-            Console.WriteLine("Hello");
+        static void Func(int x){
+            Console.WriteLine(x * 2);
         }
 
         static void Main(string[] args){
-            SayHi();
-            SayHi();
-            SayHi();
+            Func(5);
+            Func(12);
+            Func(24);
         }
     }
 }
