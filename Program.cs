@@ -10,14 +10,13 @@ namespace SoloLearn
 
     class Program
     {
-        static void Func(int x){
-            Console.WriteLine(x * 2);
+        static int Sum(int x, int y)
+        {
+            return x+y;
         }
-
-        static void Main(string[] args){
-            Func(5);
-            Func(12);
-            Func(42);
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Sum(8, 6));
         }
     }
 }
